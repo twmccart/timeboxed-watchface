@@ -1,0 +1,12 @@
+{
+  "python.defaultInterpreterPath": "${env:HOME}/miniforge3/envs/pebble/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.env.osx": {
+    "CONDA_DEFAULT_ENV": "pebble"
+  },
+  "terminal.integrated.shellArgs.osx": [
+    "-l",
+    "-c",
+    "source ~/miniforge3/etc/profile.d/conda.sh && conda activate pebble && exec bash"
+  ]
+}
